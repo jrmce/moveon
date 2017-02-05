@@ -20,6 +20,6 @@ MoveOn does not look at anything except the character immediatly after your curs
 
 ## Release Notes
 
-### 1.0.0
+### 0.0.1
 
 Initial release
