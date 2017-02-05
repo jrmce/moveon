@@ -5,11 +5,5 @@ import { MoveOn } from './moveon';
 
 export function activate(context: vscode.ExtensionContext) {
     const moveOn = new MoveOn();
-
-    if (!moveOn.disabled) {
-        const execute = vscode.commands.registerTextEditorCommand('moveOn.execute', moveOn.execute, moveOn);
-        context.subscriptions.push(execute);
-    }
+    context.subscriptions.push(moveOn);
 }
-
-export function deactivate() { }

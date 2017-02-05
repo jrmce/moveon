@@ -22,7 +22,7 @@
                 "moveOn.disabled": {
                     "type": "boolean",
                     "default": false,
-                    "description": "Disable MoveOn."
+                    "description": "Disable MoveOn by default."
                 },
                 "moveOn.moveOnFrom": {
                     "type": "array",
@@ -35,6 +35,10 @@
             {
                 "command": "moveOn.disable",
                 "title": "Disable MoveOn"
+            },
+            {
+                "command": "moveOn.enable",
+                "title": "Enable MoveOn"
             }
         ],
         "keybindings": [
