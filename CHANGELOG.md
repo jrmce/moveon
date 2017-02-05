@@ -2,4 +2,5 @@
 All notable changes to the "MoveOn" extension will be documented in this file.
 
 ## [0.0.1]
+### Added
 - Initial release

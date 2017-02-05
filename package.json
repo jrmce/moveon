@@ -1,7 +1,7 @@
 {
     "name": "moveon",
     "displayName": "MoveOn",
-    "description": "Move on from quotes and parenthesis.",
+    "description": "Move on from quotes, parenthesis, and anything else.",
     "version": "0.0.1",
     "publisher": "jrmce",
     "engines": {
@@ -26,7 +26,10 @@
                 },
                 "moveOn.moveOnFrom": {
                     "type": "array",
-                    "default": ["'", ")"],
+                    "default": [
+                        "'",
+                        ")"
+                    ],
                     "description": "Characters to skip over when pressing the hot key (tab by default)."
                 }
             }
