@@ -23,3 +23,7 @@ MoveOn does not look at anything except the character immediatly after your curs
 ### 0.0.1
 
 Initial release
+
+### 0.0.2
+
+Don't execute if there is a selection or multiple selection.
