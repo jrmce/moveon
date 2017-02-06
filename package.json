@@ -48,7 +48,7 @@
             {
                 "command": "moveOn.execute",
                 "key": "tab",
-                "when": "editorTextFocus && !suggestWidgetVisible"
+                "when": "editorTextFocus && !suggestWidgetVisible && !editorHasSelection && !editorHasMultipleSelections"
             }
         ]
     },
